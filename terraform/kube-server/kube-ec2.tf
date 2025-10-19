@@ -8,5 +8,5 @@ resource "aws_instance" "kube" {
     Name = var.project
     OS   = var.os
   }
-  user_data = file("user-data.sh")
+  user_data = file("user-data.sh") 
 }
